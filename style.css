@@ -1,0 +1,181 @@
+/* CSS reset */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-family: 'LiberationSans-Regular';
+}
+
+body {
+    background-color: #dddfec;
+}
+
+@font-face {
+    font-family: 'LiberationSans-Regular';
+    src: url('LiberationSans-Regular.ttf');
+}
+
+.mainHeader {
+    background-color: #075E54;
+    height: 80px;
+}
+
+.header {
+    background-color: #075E54;
+    height: 40px;
+}
+
+.secondHeader {
+    background-color: #075E54;
+    width: 100%;
+    color: gray;
+    position: fixed;
+}
+
+.divTeste {
+    background-color: white;
+}
+
+.firstChat {
+    margin-top: 40px;
+}
+
+.secondHeaderElements {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.cameraIcon {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerElements {
+    color: white;
+    padding-top: 2%;
+}
+
+.leftHeaderElements {
+    margin-top: 2%;
+    padding-left: 4%;
+}
+
+.rightHeaderElements {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+    margin-top: -4%;
+}
+
+.fas.fa-ellipsis-v.search {
+    margin-left: 5%;
+}
+
+/* Messages Body */
+
+.chatBox {
+    height: 65px;
+    background-color: #ECE5DD;
+    display: flex;
+}
+
+.chatBox:active {
+    background-color: red;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: #075E54;
+    height: 50px;
+    width: 50px;
+    margin: 2%;
+}
+
+.chatName {
+    color: black;
+    padding-top: 2%;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.lastMessagePreview {
+    padding-top: 3%;
+    width: 100%;
+    padding-left: 5%;
+    font-size: small;
+}
+
+.bottomContactButtom {
+    border-radius: 50%;
+    background-color: #25D366;
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottomContactButtomIcon {
+    color: white; 
+}
+
+.separator {
+    height: 1px;
+    background-color: black;
+}
+
+.headerInsideChat {
+    height: 60px;
+    background-color: #075E54;
+    display: flex;
+}
+
+.backButtonInsideChat {
+    background-color: white;
+    width: 10px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.avatarInsideChat {
+    height: 40px;
+    width: 40px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactDetailsInsideChat {
+    width: 55%;
+    padding-top: 5%;
+    margin-left: 1%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameFontInsideChat {
+    color: white;
+    font-size: small;
+    margin-bottom: 2%;
+}
+
+.lastSeenFont {
+    color: white;
+    font-size: x-small;
+}
